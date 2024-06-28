@@ -3,11 +3,29 @@
     background-color: rgb(237, 242, 245);
 }
 
-.main-nav{
+.main-h1{
+    margin-left: 35px;
+}
+
+.main-self{
+    margin-top: 100px;
+}
+
+.head-main-nav{
     display: flex;
     justify-content: center;
     gap: 2.5rem;
     list-style: none;
+    margin-left: 400px;
+}
+
+.nav-li{
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+
+.hobby-h2{
+    text-align: center;
 }
 
 .imgs{
