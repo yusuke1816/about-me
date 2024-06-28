@@ -1,0 +1,57 @@
+
+.page-header{
+    background-color: rgb(237, 242, 245);
+}
+
+.main-nav{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+}
+
+.imgs{
+    margin-top: 100px;
+    /*isplay: inline-flex;*/
+    justify-content: center;
+    display: flex;
+    /*flex-direction: row;*/
+    text-align: center;
+    gap:100px;
+    
+}
+
+.imgone{
+    width: 150px;
+    height: 150px;
+}
+
+.footer{
+    
+    /*flex-direction: row;*/
+    background-color: rgb(34, 33, 33);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+}
+.insta-img,.x-img,.line-img{
+    margin-top: 30px;
+    width: 50px;
+    height: 50px;
+}
+
+
+    
+
+.footer-ul{
+    justify-content: center;
+    display: flex;
+    /*flex-direction: row;*/
+    text-align: center;
+    gap:100px;
+    list-style: none;
+}
+
+
