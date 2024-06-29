@@ -48,7 +48,7 @@
 }
 
 .img-row1{
-    margin-top: 70px;
+    margin-top: 50px;
 }
 .img-row-last{
     margin-bottom: 100px;
@@ -84,17 +84,21 @@
 }
 
 .us-icon-img{
+    width: 130px;
+    height: 130px;
+}
+
+.uk-icon-img{
+    width: 110px;
+    height: 110px;
+}
+
+.jp-icon-img{
     width: 100px;
     height: 100px;
 }
 
-.uk-icon-img{
-    width: 85px;
-    height: 85px;
+.k-icon-img{
+    width: 100px;
+    height: 100px;
 }
-
-.jp-icon-img{
-    width: 85px;
-    height: 85px;
-}
-
