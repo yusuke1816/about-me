@@ -40,8 +40,9 @@
 }
 
 .imgone{
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 320px;
+    border-radius: 3%;
 }
 
 .footer{
