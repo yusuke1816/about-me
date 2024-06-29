@@ -6,6 +6,7 @@
     <title>自己紹介</title>
 
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -25,24 +26,34 @@
     </div>
 
     <h2 class="hobby-h2">my faivolit things</h2>
-    <div class="imgs">
-        <div class="">
-           <a href="artist.html"><img class="imgone" src="image/index/music.jpg" alt=""></a> 
-            <h2>music</h2>
+    <div class="swiper">
+        <div class="imgs swiper-wrapper">
+            <div class="">
+               <a href="artist.html"><img class="imgone" src="image/index/music.jpg" alt=""></a> 
+                <h2>music</h2>
+            </div>
+            <div class="swiper-slide">
+                <img class="imgone" src="image/index/food.jpg" alt="">
+                <h2>food</h2>
+            </div>
+            <div class="swiper-slide">
+                <img class="imgone" src="image/index/movie.jpg" alt="">
+                <h2>movie</h2>
+            </div>
+            <div class="swiper-slide">
+                <img class="imgone" src="image/index/hobby.jpg" alt="">
+                <h2>skateboard</h2>
+            </div>
+            <div class="swiper-slide">
+                <img class="imgone" src="image/index/hobby.jpg" alt="">
+                <h2>skateboard</h2>
+            </div>
         </div>
-        <div>
-            <img class="imgone" src="image/index/food.jpg" alt="">
-            <h2>food</h2>
-        </div>
-        <div>
-            <img class="imgone" src="image/index/movie.jpg" alt="">
-            <h2>movie</h2>
-        </div>
-        <div>
-            <img class="imgone" src="image/index/hobby.jpg" alt="">
-            <h2>趣味</h2>
-        </div>
+        <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
     </div>
+    
 
 
 
@@ -55,6 +66,7 @@
             </ul>
         </footer>
     </div>
- <script src="js/scripts.js"></script>
+ <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+ <script src="js/test.js"></script>
 </body>
 </html>

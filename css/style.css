@@ -35,7 +35,7 @@
     display: flex;
     /*flex-direction: row;*/
     text-align: center;
-    gap:100px;
+    gap:1px;
     
 }
 
@@ -74,3 +74,54 @@
 }
 
 
+
+
+/*js-----------------------------------*/
+.swiper-wrapper {
+    /* wrapperのサイズを調整 */
+    width: 100%;
+    height: 300px !important;
+  }
+  
+  .swiper-slide {
+    /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 300px;
+    text-align: center;
+  }
+  
+  /*
+  .swiper-slide:nth-child(3n + 1) {
+    background-color: #de4439;
+  }
+  
+  .swiper-slide:nth-child(3n + 2) {
+    background-color: #fcd500;
+  }
+  
+  .swiper-slide:nth-child(3n + 3) {
+    background-color: #53c638;
+  }
+  
+*/
+
+  .swiper-pagination-bullets {
+    width: 100px;
+  }
+  
+  .swiper-pagination-bullet {
+    width: 12px !important;
+    height: 12px !important;
+    margin: 0 0 0 10px !important;
+    background: #fff;
+  }
+  
+  .swiper-pagination-bullet:first-child {
+    margin: 0 !important;
+  }
+  
+  
+  
