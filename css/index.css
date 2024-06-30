@@ -29,19 +29,12 @@
 }
 
 .imgs{
-    margin-top: 100px;
-    /*isplay: inline-flex;*/
-    justify-content: center;
-    display: flex;
-    /*flex-direction: row;*/
-    text-align: center;
-    gap: 150px;
     
 }
 
 .imgone{
-  height: 380px;
-  width:  280px;
+  height: 300px;
+  width:  200px;
   border-radius: 3%;
 }
 
@@ -80,11 +73,16 @@
   text-align: center;
   line-height: 300px;
   text-align: center;
-  flex-shrink: unset;
   height: 350px;
 
 }
 
+/*js*/
+
+
+.swiper-slide {
+  height: 2px;
+}
 
 
 /*js-----------------------------------*/
@@ -94,14 +92,6 @@
   }
   
   .swiper-slide {
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    line-height: 300px;
-    text-align: center;
-    flex-shrink: unset;
-    height: 350px;
   }
   
 
