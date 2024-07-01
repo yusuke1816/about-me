@@ -21,6 +21,10 @@ body {
 
 .page-header{
   background-color: rgb(237, 242, 245);
+  height: 90px;
+    background-position: -10px -10px;
+    background-image: url(../image/image/604f6358cd0a4b83989516f724ed8bea.jpeg);
+    background-size: 100%;
 }
 
 .main-h1{
@@ -79,6 +83,10 @@ footer {
   bottom: 0;
   width: 100%;
   background: #44aa33;
+  height: 90px;
+    background-position: -10px -10px;
+    background-image: url(../image/image/604f6358cd0a4b83989516f724ed8bea.jpeg);
+    background-size: 100%;
 }
 
 .insta-img,.x-img,.line-img{
