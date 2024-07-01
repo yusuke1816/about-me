@@ -1,3 +1,12 @@
+body {
+  background-image: url(../image/image/download.jpg);
+  background-size: 100%;
+}
+
+.main-img{
+  height: 200px;
+  width: 200px;
+}
 
 .page-header{
   background-color: rgb(237, 242, 245);
