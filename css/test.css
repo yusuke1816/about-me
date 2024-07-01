@@ -6,7 +6,8 @@ body {
   }
 
   .main-hobby{
-    height: 1000px;
+    height: 900px;
+    background-position: 0px -60px;
     background-image: url(../image/image/604f6358cd0a4b83989516f724ed8bea.jpeg);
     background-size: 100%;
      
