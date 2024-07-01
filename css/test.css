@@ -1,9 +1,15 @@
 body {
-  background-image: url(../image/image/download.jpg);
-  background-size: 100%;
-    margin: 0;
-    padding: 0;
-    position: relative;
+  background-color: black;
+
+  }
+
+  .main-hobby{
+    height: 1000px;
+    background-image: url(../image/image/604f6358cd0a4b83989516f724ed8bea.jpeg);
+    background-size: 100%;
+      margin: 0;
+      padding: 0;
+      position: relative;
   }
 
 
