@@ -1,4 +1,23 @@
 /*us-imgs*/
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url(../image/image/night\ sky2.jpg);
+    background-size: 100% 100%;
+    background-color:rgb(95, 16, 181);
+  background-blend-mode:darken;
+    }
+
+    h1{
+        color: aliceblue;
+    }
+
+    h2{
+        color: aliceblue;
+    }
+
 .artist{
     list-style: none;
 }
@@ -14,7 +33,7 @@
 .us-imgs{
     width: 340px;
     height: 200px;
-    box-shadow: 0 10px 25px 0 rgba(0, 0, 0, .5);
+    box-shadow: 0 10px 25px 0 rgba(95, 94, 94, 0.5);
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
