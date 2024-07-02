@@ -1,8 +1,11 @@
 body {
-  background-color: black;
   margin: 0;
   padding: 0;
   position: relative;
+  background-image: url(../image/image/night\ sky2.jpg);
+  background-size: 100% 100%;
+  background-color:rgb(95, 16, 181);
+background-blend-mode:darken;
   }
 
   .main-hobby{
@@ -15,14 +18,14 @@ body {
   height: 200px;
   width: 200px;
 }
-
+/*
 .page-header{
   background-color: rgba(237, 242, 245, 0.525);
   height: 90px;
     background-position: -10px -10px;
     background-image: url(../image/image/604f6358cd0a4b83989516f724ed8bea.jpeg);
     background-size: 100%;
-}
+}*/
 
 .main-h1{
   margin-left: 35px;
@@ -45,13 +48,6 @@ body {
   font-size: 25px;
 }
 
-.myf{
-  margin-top: 110px;
-  font-size: 40px;
-  text-align: center;
-  margin-bottom: 20px;
-  color: aliceblue;
-}
 
 
 /*
@@ -93,16 +89,7 @@ footer {
 
 
 
-.swiper-slide img {
 
-  height: 400px;
-  width: 300px;
-  margin-left: 88px;
-
-  }
-  .hobby-h2{
-    margin-left: 210px;
-  }
 
 
 
@@ -158,15 +145,48 @@ footer{
 }
 
 .about{
-  font-size: large;
+  margin-top: 200px;
+  font-size: 90px;
   color: aliceblue;
   text-align: center;
 }
 
-.like{
-  height: 900px;
+.page-header
+{
+  height: 600px;
   background-position: 0px -60px;
   background-image: url(../image/image/604f6358cd0a4b83989516f724ed8bea.jpeg);
   background-size: 100%;
   background-size: 100%;
 }
+
+.like{
+  margin-top: 120px;
+}
+
+.swiper-slide img {
+  height: 400px;
+  width: 300px;
+  margin-left: 88px;
+
+  }
+  .hobby-h2{
+    margin-left: 210px;
+  }
+
+  .myf{
+    margin-bottom: 80px;
+    font-size: 40px;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  
+
+
+  .hobby-h2{
+    color: aliceblue;
+  }
+
+
+
