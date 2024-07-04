@@ -22,6 +22,9 @@ p{
 
 .eachTextAnime {
     white-space: pre-line; /* もしくは white-space: pre; */
+    margin-top: 9%;
+    color: #000;
+  -webkit-text-stroke: 2px #380bdc;;
 }
 
 
@@ -34,12 +37,12 @@ p{
   
   .box {
     position: absolute;
-    top: 0;
+    top: 30px;
     left: 0;
     width: 30px;
     height: 30px;
     opacity: 0;
-    animation: fadeIn 60s forwards;
+    animation: fadeIn 36s forwards;
   }
   
   @keyframes fadeIn {
@@ -55,6 +58,6 @@ p{
     margin-top: 50px;
     margin-left: 450px;
     width: 550px; /* 幅を300pxに設定 */
-    height: 500px; 
+    height: 450px; 
     opacity: 0.5;
 }

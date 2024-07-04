@@ -4,8 +4,9 @@ body {
   position: relative;
   background-image: url(../image/image/night\ sky2.jpg);
   background-size: 100% 100%;
-  background-color:rgb(95, 16, 181);
+  background-color:rgb(20, 5, 232);
 background-blend-mode:darken;
+background-attachment: fixed;
   }
 
   .main-hobby{
@@ -40,14 +41,28 @@ background-blend-mode:darken;
   justify-content: center;
   gap: 2.5rem;
   list-style: none;
-  margin-left: 400px;
+  margin-left: 10px;
 }
 
 .nav-li{
   margin-bottom: 35px;
   font-size: 25px;
+  margin-top: 1%;
+  list-style: none;
+  text-decoration: none;
+  color: #380bdc;;;
 }
 
+.nav-h1{
+  margin-right: 50%;
+  color: #380bdc;;
+}
+
+.nav-img{
+  margin-top: 10px;
+  height: 60px;
+  width: 60px;
+}
 
 
 /*
@@ -124,12 +139,11 @@ footer {
   text-align: center;
   
  
-}
+}*/
   
 footer{
-  position: absolute;
-  bottom: 0;
-}*/
+
+}
 
 
 
@@ -138,9 +152,8 @@ footer{
   text-align: center;
   gap:50px;
   list-style: none;
-  height: 90px;
-    background-position: -10px -10px;
-    background-image: url(../image/image/604f6358cd0a4b83989516f724ed8bea.jpeg);
+  height: 200px;
+    background-image: url(../image/image/wall2.jpeg);
     background-size: 100%;
 }
 
@@ -158,6 +171,9 @@ footer{
   background-image: url(../image/image/604f6358cd0a4b83989516f724ed8bea.jpeg);
   background-size: 100%;
   background-size: 100%;
+  width: 100%;
+  
+  
 }
 
 .like{
