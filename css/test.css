@@ -15,32 +15,7 @@ background-blend-mode:darken;
 background-attachment: fixed;
   }
 
-  .main-hobby{
-  
 
-  }
-
-
-.main-img{
-  height: 200px;
-  width: 200px;
-}
-/*
-.page-header{
-  background-color: rgba(237, 242, 245, 0.525);
-  height: 90px;
-    background-position: -10px -10px;
-    background-image: url(../image/image/604f6358cd0a4b83989516f724ed8bea.jpeg);
-    background-size: 100%;
-}*/
-
-.main-h1{
-  margin-left: 35px;
-}
-
-.main-self{
-  margin-top: 100px;
-}
 
 .head-main-nav{
   display: flex;
@@ -61,7 +36,6 @@ background-attachment: fixed;
 
 .nav-h1{
   margin-right: 50%;
-  color: #380bdc;;
   
 }
 
@@ -72,13 +46,7 @@ background-attachment: fixed;
 }
 
 
-/*
-.imgs{
-  margin-top: 100px;
-  justify-content: center;
-  display: flex;
-  text-align: center;
-}なんかこれがくそ*/
+
 
 .imgone{
 height: 10px;
@@ -93,66 +61,14 @@ position: relative;
 top: 3px
 }
 
-/*
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background: #44aa33;
-  
-}*/
-
 .insta-img,.x-img,.line-img{
   margin-top: 5px;
   width: 50px;
   height: 50px;
 }
-
-
-
-
-
-
-
 
 
   /*footer*/
-/*
-.footer{
-    
-  background-color: rgb(34, 33, 33);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100px;
-}*/
-
-
-.insta-img,.x-img,.line-img{
-  margin-top: 5px;
-  width: 50px;
-  height: 50px;
-}
-
-
-  
-
-/*.footer-ul{
-  margin-top: 20px;
-  justify-content: center;
-  display: flex;
-  text-align: center;
-  
- 
-}*/
-  
-footer{
-
-}
-
-
 
 .footer-ul{
   display: flex;
@@ -191,8 +107,8 @@ footer{
   height: 400px;
   width: 300px;
   margin-left: 88px;
-
   }
+
   .hobby-h2{
     margin-left: 210px;
   }
@@ -213,3 +129,92 @@ footer{
 
 
 
+
+
+  @media screen and (max-width: 959px) {
+    /* 959px以下に適用されるCSS（タブレット用） */
+
+    .head-main-nav{
+      gap: 1rem;
+      list-style: none;
+      margin-left: 0px;
+    }
+    .nav-li{
+      font-size: 15px;
+      margin-top: 1%;
+      list-style: none;
+      text-decoration: none;
+      color: #dc0bc7;;;
+    }
+
+    .nav-h1{
+        margin-right: 0%;
+        
+      }
+
+      .swiper-slide img {
+        height: 300px;
+        width: 200px;
+        margin-left: 88px;
+        }
+
+
+
+        .main-self{
+          margin-top: 0px;
+        }
+
+        .like{
+          margin-top: 0px;
+        }
+
+        .head-main-nav{
+          gap: 1rem;
+          margin-left: 0px;
+        }
+        .page-header
+        {
+          height: 300px;
+        }
+
+
+
+  }
+
+
+
+
+
+
+
+  @media screen and (max-width: 480px) {
+    /* 480px以下に適用されるCSS（スマホ用） */
+
+    .head-main-nav{
+      gap: 1rem;
+      margin-left: 0px;
+    }
+
+    .nav-li{
+      margin-bottom: 35px;
+      font-size: 1px;
+    }
+
+    .like{
+      margin-top: 0px;
+    }
+
+    .page-header
+{
+  height: 300px;
+
+}
+
+.head-main-nav{
+  gap: 1rem;
+  margin-left: 0px;
+}
+
+
+
+  }

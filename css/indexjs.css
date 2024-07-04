@@ -61,3 +61,38 @@ p{
     height: 450px; 
     opacity: 0.5;
 }
+
+@media screen and (max-width: 959px) {
+  /* 959px以下に適用されるCSS（タブレット用） */
+.eachTextAnime {
+   font-size: 30px;
+   margin-top: 1px;
+}
+
+.box img {
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 160px; /* 幅を300pxに設定 */
+  height: 160px; 
+  opacity: 0.5;
+
+}
+}
+  
+
+
+@media screen and (max-width: 480px) {
+  /* 480px以下に適用されるCSS（スマホ用） */
+  .eachTextAnime {
+    margin-top: 1px;
+    font-size: 30px;
+ }
+
+ .box img {
+  margin-top: 50px;
+  margin-left: 200px;
+  width: 160px; /* 幅を300pxに設定 */
+  height: 160px; 
+  opacity: 0.5;
+}
+}
