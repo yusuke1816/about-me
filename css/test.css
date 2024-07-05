@@ -48,11 +48,11 @@ background-attachment: fixed;
 
 
 
-.imgone{
+/* .imgone{
 height: 10px;
 width:  10px;
 border-radius: 3%;
-}
+} */
 
 .imgone:hover{
 opacity:0.5;
@@ -70,15 +70,23 @@ top: 3px
 
   /*footer*/
 
-.footer-ul{
-  display: flex;
-  text-align: center;
-  gap:50px;
-  list-style: none;
-  height: 200px;
-    background-image: url(../image/image/wall2.jpeg);
+.footer{
+  margin-top: 20%;
+  height: 400px;
+  /*  background-image: url(../image/image/wall2.jpeg);*/
+  background-color: black;
     background-size: 100%;
 }
+.footer-ul{
+  display: flex;
+  gap:50px;
+  list-style: none;
+margin-top: 100px;
+  justify-content: center;
+}
+
+
+
 
 
 
@@ -90,30 +98,30 @@ top: 3px
   background-size: 100%;
   background-size: 100%;
   width: 100%;
-  
-  
 }
 
 .like{
   margin-top: 120px;
 }
 
-.swiper-slide{
-  width: 0px;
-}
 
 
 
 
 
 .swiper-slide img {
-  height: 400px;
+  /* height: 400px; */
   width: 300px;
-  margin-left: 88px;
+  border-radius: 3%;
+  height: 300px;
+  margin-left: 100px;
+  object-fit: cover;
   }
 
   .hobby-h2{
-    margin-left: 210px;
+    /* margin-left: 210px; */
+    display: flex;
+    justify-content: center;
   }
 
   .myf{
@@ -155,7 +163,7 @@ top: 3px
   margin-left: 14%;
     color: aliceblue;
     text-align: center;
-    background: rgba(44, 9, 172, 0.3);
+    background: rgba(56, 56, 56, 0.185);
   }
 
 

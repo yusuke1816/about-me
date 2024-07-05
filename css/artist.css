@@ -167,7 +167,6 @@ body {
 
 .footer-ul{
     display: flex;
-    text-align: center;
     gap:50px;
     list-style: none;
     height: 200px;
