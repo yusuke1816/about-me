@@ -80,12 +80,7 @@ top: 3px
     background-size: 100%;
 }
 
-.about{
-  margin-top: 200px;
-  font-size: 90px;
-  color: aliceblue;
-  text-align: center;
-}
+
 
 .page-header
 {
@@ -102,6 +97,14 @@ top: 3px
 .like{
   margin-top: 120px;
 }
+
+.swiper-slide{
+  width: 0px;
+}
+
+
+
+
 
 .swiper-slide img {
   height: 400px;
@@ -131,7 +134,58 @@ top: 3px
 
 
 
-  @media screen and (max-width: 959px) {
+
+
+
+/*about*/
+
+
+
+.about-h2{
+  color: aliceblue;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 400%;
+  margin-bottom: 0px;
+}
+
+.about-p{
+  font-size: 50px;
+  width: 70%;
+  margin-left: 14%;
+    color: aliceblue;
+    text-align: center;
+    background: rgba(44, 9, 172, 0.3);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  @media screen and (max-width: 980px) {
     /* 959px以下に適用されるCSS（タブレット用） */
 
     .head-main-nav{
@@ -187,7 +241,7 @@ top: 3px
 
 
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 500px) {
     /* 480px以下に適用されるCSS（スマホ用） */
 
     .head-main-nav{
