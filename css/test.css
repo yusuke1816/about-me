@@ -114,8 +114,11 @@ margin-top: 100px;
   width: 300px;
   border-radius: 3%;
   height: 400px;
-  margin-left: 18%;
   object-fit: cover;
+  }
+
+  .swiper-slide{
+    text-align: center;
   }
 
   .hobby-h2{
