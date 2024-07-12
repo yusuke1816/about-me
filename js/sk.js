@@ -1,16 +1,8 @@
 const swiper = new Swiper(".swiper", {
-    slidesPerView: 1,
-      breakpoints: {
-      // 768px以上の場合
-      768: {
-        slidesPerView: 3,
-      },
-    },
     // ページネーションが必要なら追加
     pagination: {
       el: ".swiper-pagination"
     },
-  
     // ナビボタンが必要なら追加
     navigation: {
       nextEl: ".swiper-button-next",
@@ -18,9 +10,7 @@ const swiper = new Swiper(".swiper", {
     }
   });
 
-
   
-
 //もじ//
 
 // eachTextAnimeにappeartextというクラス名を付ける定義
@@ -68,4 +58,3 @@ $(window).on('load', function () {
 
   EachTextAnimeControl();/* アニメーション用の関数を呼ぶ*/
 });// ここまで画面が読み込まれたらすぐに動かしたい場合の記述
-
