@@ -177,25 +177,9 @@ margin-top: 100px;
 
 
 /*hood*/
-.hood-imgs{
-  width: 200px;
-  height: 150;
-}
 
-.swiper--wrapper1 {
-  /* wrapperのサイズを調整 */
-  width: 100%;
-  height: 300px;
-}
-
-.swiper-slide1 {
-  /* スライドのサイズを調整、中身のテキスト配置調整、背景色 */
-  color: #ffffff;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  line-height: 300px;
-  text-align: center;
+.hood-imgs {
+  width: 1000px;
 }
 
 

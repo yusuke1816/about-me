@@ -1,0 +1,26 @@
+.hood-imgs {
+    width: 100%; /* Full width */
+  }
+  
+  .hood-imgs .swiper-slide {
+    width: 100%; /* Full width of the container */
+    flex: 0 0 auto;
+  }
+  
+  .hood-imgs img {
+    width: 100%; /* Full width of the slide */
+    height: 600px; /* Set a specific height */
+    max-width: none; /* Remove max-width constraint */
+    border-radius: 10px; /* Optional */
+    object-fit: cover; /* Maintain aspect ratio */
+  }
+
+  .swiper2{
+    margin-top: 100px;
+  }
+
+  .hood-imgs{
+    margin-top: 100px;
+  }
+
+  
