@@ -97,6 +97,12 @@ body {
 	top: 3px
 }
 
+.insta-img,.x-img,.line-img{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+  }
+
 .imgs-row{
     justify-content: center;
     display: flex;
@@ -170,6 +176,5 @@ body {
     gap:50px;
     list-style: none;
     height: 200px;
-    background-image: url(../image/image/wall2.jpeg);
     background-size: 100%;
   }
