@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>宇宙の魔法の料理</title>
+    <link rel="stylesheet" href="css/food.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-WIe1FSYOeE/22RPP6VZEZ41B4B9vN8LeHU/9L6Qr2wPfO1x9+dG/v2rc52ex5SPmSKsSCGj4nBYOQXjGKj4R4Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>宇宙の魔法の料理</h1>
+            <p>星々からやってきた奇跡の料理をお楽しみください。</p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="card" data-food="星雲のスープ">
+            <img src="nebula_soup.jpg" alt="星雲のスープ">
+            <div class="card-content">
+                <h3>星雲のスープ</h3>
+                <p>彩り鮮やかな星雲をイメージした、宇宙的なスープ。</p>
+                <button class="btn-details">詳細を見る</button>
+            </div>
+        </div>
+        <div class="card" data-food="アストロベリーパフェ">
+            <img src="astro_berry_parfait.jpg" alt="アストロベリーパフェ">
+            <div class="card-content">
+                <h3>アストロベリーパフェ</h3>
+                <p>宇宙の果実、アストロベリーをふんだんに使った宇宙船の形をしたパフェ。</p>
+                <button class="btn-details">詳細を見る</button>
+            </div>
+        </div>
+        <div class="card" data-food="火星のグリル">
+            <img src="mars_grill.jpg" alt="火星のグリル">
+            <div class="card-content">
+                <h3>火星のグリル</h3>
+                <p>火星の赤い大地から採れた特別なスパイスを使ったグリル料理。</p>
+                <button class="btn-details">詳細を見る</button>
+            </div>
+        </div>
+        <div class="card" data-food="アリエルのアイス">
+            <img src="ariel_ice.jpg" alt="アリエルのアイス">
+            <div class="card-content">
+                <h3>アリエルのアイス</h3>
+                <p>海底の氷を使った、幻想的なブルーカラーのアイスクリーム。</p>
+                <button class="btn-details">詳細を見る</button>
+            </div>
+        </div>
+        <!-- 他の料理カードを追加 -->
+    </div>
+
+    <div class="popup">
+        <div class="popup-content">
+            <span class="close-btn">&times;</span>
+            <h2 class="popup-title">詳細</h2>
+            <div class="popup-body">
+                <img src="" alt="" id="food-img">
+                <div class="food-details">
+                    <h3 id="food-name"></h3>
+                    <p id="food-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/food.js"></script>
+</body>
+</html>

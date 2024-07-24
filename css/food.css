@@ -1,0 +1,184 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0d0d0d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: radial-gradient(circle, #000000, #0a0a0a);
+    color: #fff;
+    text-align: center;
+    padding: 60px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.header-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.header-content p {
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: -100px; /* Header overlap fix */
+}
+
+.card {
+    background-color: #333;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px 12px 0 0;
+    filter: brightness(0.8) saturate(120%);
+    transition: filter 0.3s;
+}
+
+.card:hover img {
+    filter: brightness(1) saturate(100%);
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card h3 {
+    color: #fff;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.card p {
+    color: #ccc;
+    font-size: 1.2rem;
+    line-height: 1.6;
+}
+
+.btn-details {
+    background-color: #ff9800;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.btn-details:hover {
+    background-color: #ff6f00;
+    color: #fff;
+}
+
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.popup.active {
+    display: flex;
+    opacity: 1;
+}
+
+.popup-content {
+    background-color: #333;
+    max-width: 80%;
+    padding: 40px;
+    text-align: center;
+    position: relative;
+    border-radius: 12px;
+    opacity: 0;
+    transform: translateY(-50px);
+    transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.popup.active .popup-content {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+.popup-title {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: #ff9800;
+}
+
+.popup-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup-body img {
+    max-width: 100%;
+    border-radius: 12px;
+    margin-right: 20px;
+}
+
+.food-details {
+    text-align: left;
+}
+
+.food-details h3 {
+    color: #ff9800;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.food-details p {
+    color: #ccc;
+    font-size: 1.4rem;
+    line-height: 1.6;
+}

@@ -212,6 +212,52 @@ form{
 }
 
 
+.sns-h2{
+    color: aliceblue;
+    text-align: center;
+    font-size: 400%;
+    margin-bottom: 0px;
+  
+}
+
+
+
+.index-sns-imgs{
+  text-align: center;
+  margin-top: 150px;
+}
+
+
+.index-sns-img {
+  width: 120px;
+  height: 120px;
+  margin: 0 30px; /* Add margin to create space between images */
+}
+
+.index-sns-imgs-row {
+  margin-top: 70px; /* Adjust as needed for spacing between rows */
+  display: flex;
+  justify-content: center;
+}
+
+.index-sns-x{
+  width: 250px;
+  height: 200px;
+}
+.index-sns-applem{
+  
+  width: 250px;
+  height: 200px;
+}
+.index-sns-be{
+  width: 250px;
+  height: 200px;
+}
+
+
+
+
+
 
 
 
