@@ -208,9 +208,9 @@ html{
   
   .swiper-slide img {
     /* height: 400px; */
-    width: 300px;
+    width: 350px;
     border-radius: 3%;
-    height: 400px;
+    height: 250px;
     object-fit: cover;
     }
   
@@ -294,14 +294,7 @@ html{
   
     }
   
-  .about:before {
-      content: ''; /* Create a pseudo-element */
-      position: absolute; /* Position relative to the parent */
-      left: 20%; /* Adjust the left position to control the shortening */
-      right: 20%; /* Adjust the right position to control the shortening */
-      bottom: 0; /* Position at the bottom */
-      border-bottom: 1px solid #ccc; /* Short bottom border */
-  }
+  
   
   /* Optional: Adjust margins and padding for sections */
   .about:last-child:before {

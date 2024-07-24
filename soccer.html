@@ -1,73 +1,73 @@
 <!DOCTYPE html>
 <html lang="ja">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
-        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, user-scalable=yes">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>映画サブスク風スライダー</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <style>
+        /* 任意の追加のCSSスタイルをここに追加できます */
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .swiper-container {
+            width: 80%; /* コンテナの幅を調整 */
+            margin: 0 auto; /* 中央寄せ */
+        }
+    </style>
+</head>
+<body>
 
-        <title>自己紹介</title>
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide"><img src="movie1.jpg" alt="Movie 1"></div>
+        <div class="swiper-slide"><img src="movie2.jpg" alt="Movie 2"></div>
+        <div class="swiper-slide"><img src="movie3.jpg" alt="Movie 3"></div>
+        <div class="swiper-slide"><img src="movie4.jpg" alt="Movie 4"></div>
+        <div class="swiper-slide"><img src="movie5.jpg" alt="Movie 5"></div>
+        <div class="swiper-slide"><img src="movie6.jpg" alt="Movie 6"></div>
+        <div class="swiper-slide"><img src="movie7.jpg" alt="Movie 7"></div>
+        <div class="swiper-slide"><img src="movie8.jpg" alt="Movie 8"></div>
+        <div class="swiper-slide"><img src="movie9.jpg" alt="Movie 9"></div>
+    </div>
+    <!-- ページネーション -->
+    <div class="swiper-pagination"></div>
+    <!-- ナビゲーションボタン -->
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+</div>
 
-        <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
-        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-        <link rel="stylesheet" type="text/css" href="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-11/css/reset.css">
-        <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
-        <link rel="stylesheet" href="css/sk.css">
-        <link rel="stylesheet" href="css/indexjs.css">
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+    var swiper = new Swiper('.swiper-container', {
+        slidesPerView: 4,
+        spaceBetween: 20,
+        loop: true,
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 2,
+                spaceBetween: 20,
+            },
+            1024: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+            },
+        }
+    });
+</script>
 
-    </head>
-
-
-    <body class="main-hobby">
-
-        <div class="sub-cover cover-contact">
-            <header class="page-header">
-                <nav class="main-nav">
-                    <ul class="head-main-nav">
-                        <h1 class="nav-h1"><a href="index.html"><img class="nav-img" src="image/image/pngwing.comのコピー.png" alt=""></a></h1>
-                        <li class="nav-li"><a style="text-decoration: none;" href="#like">my favorite</a></li>
-                        <li class="nav-li"><a style="text-decoration: none;"  href="hood.html">myhood</a></li>
-                        <li class="nav-li"><a style="text-decoration: none;"  href="qa.html">q&a</a></li>
-                        <li class="nav-li"><a style="text-decoration: none;"  href="sns.html">sns</a></li>
-                        <li class="nav-li"><a style="text-decoration: none;"  href="aaaa.html">career</a></li>
-                    </ul>
-                </nav>
-            </header>
-        </div>
-     
-            <div class="swiper">
-                <!-- Additional required wrapper -->
-                <div class="swiper-wrapper">
-                  <!-- Slides -->
-                  <div class="swiper-slide swiper-slide"><img src="image/hood/ba.jpg" alt=""></div>
-                  <div class="swiper-slide swiper-slide"><img src="image/hood/ba.jpg" alt=""></div>
-                  <div class="swiper-slide swiper-slide"><img src="image/hood/ba.jpg" alt=""></div>
-                  <div class="swiper-slide swiper-slide"><img src="image/hood/ba.jpg" alt=""></div>
-                </div>
-                <!-- 必要に応じてページネーション -->
-                <div class="swiper-pagination"></div>
-                <!-- 必要に応じてナビボタン -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
-            </div>
-
-
-            <footer class="footer">
-                <div class="footer-div">
-                    <p class="footer-p">666</p>
-                <ul class="footer-ul">
-                    <li><a href=""><img class="insta-img" src="image/image/insta.png" alt=""></a></li>
-                    <li><a href=""><img class="line-img" src="image/image/insta.png" alt=""></a></li>
-                    <li><a href=""><img class="x-img" src="image/image/insta.png" alt=""></a></li>
-                </ul>
-                </div>
-                
-            </footer>
-            
-            <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-            <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="  crossorigin="anonymous"></script>
-            <script src="http://coco-factory.jp/ugokuweb/wp-content/themes/ugokuweb/data/move02/8-11/js/8-11.js"></script>
-            <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-            <script src="js/sk.js"></script>
-    </body>
+</body>
 </html>
