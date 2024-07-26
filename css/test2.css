@@ -20,4 +20,10 @@
   }
 
 
+  .swiper-slide img {
+    border: 5px solid #380bdc; /* 青色のボーダー */
+    border-radius: 10px; /* 角丸にする場合 */
+  }
+
+
   

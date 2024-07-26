@@ -208,10 +208,12 @@ html{
   
   .swiper-slide img {
     /* height: 400px; */
-    width: 350px;
+    width: 345px;
     border-radius: 3%;
-    height: 250px;
+    height: 245px;
     object-fit: cover;
+    border: 5px solid #380bdc; /* 青色のボーダー */
+    border-radius: 10px; 
     }
   
     .swiper-slide{

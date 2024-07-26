@@ -1,51 +1,55 @@
-/* Reset CSS */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+/*us-imgs*/
 
 body {
-    font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    background-color: #f0f0f0;
-    color: #333;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    background-image: url(../image/image/night\ sky2.jpg);
+    background-size: 100% 100%;
+    background-color:rgb(20, 5, 232);
+  background-blend-mode:darken;
+    }
+
+    h1{
+        color: aliceblue;
+    }
+
+    h2{
+        color: aliceblue;
+    }
+
+.artist{
+    list-style: none;
 }
 
-header {
-    background-color: #034694;
-    color: white;
-    padding: 1em 0;
-}
-
-.header-container {
+.head-main-nav{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-}
-
-nav ul {
-    display: flex;
-    list-style-type: none;
-}
-
-nav ul li {
-    margin-left: 20px;
-}
-
-nav ul li a {
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+    margin-left: 10px;
+  }
+  
+  .nav-li{
+    margin-bottom: 35px;
+    font-size: 25px;
+    margin-top: 1%;
+    list-style: none;
     text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s;
-}
+    color: #380bdc;;;
+  }
+  
+  .nav-h1{
+    margin-right: 50%;
+    
+  }
+  
+  .nav-img{
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+  }
 
-nav ul li a:hover {
-    color: #ffc20e;
-}
 
 main {
     max-width: 1200px;
@@ -54,16 +58,17 @@ main {
 }
 
 section {
-    background-color: white;
+    background-color: rgba(0, 0, 0, 0.1);
     padding: 40px;
     margin-bottom: 40px;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 5px solid #380bdc; /* 青色のボーダー */
+    border-radius: 10px; /* 角丸にする場合 */
 }
 
 h2 {
-    color: #034694;
-    border-bottom: 2px solid #034694;
+    color: #380bdc;
+    border-bottom: 2px solid #380bdc;
     padding-bottom: 10px;
     margin-bottom: 20px;
 }
@@ -71,15 +76,18 @@ h2 {
 p {
     font-size: 1.1em;
     line-height: 1.6;
+    color: #fff;
 }
 
 ul {
     list-style-type: none;
     padding: 0;
+    color: #fff;
 }
 
 li {
     margin-bottom: 10px;
+    color: #fff;
 }
 
 footer {
@@ -129,6 +137,26 @@ footer {
 .hero-content .btn:hover {
     background-color: #ffc20e;
 }
+
+
+
+  
+    /*footer*/
+  
+  .footer{
+    margin-top: 20%;
+    height: 400px;
+    /*  background-image: url(../image/image/wall2.jpeg);*/
+    background-color: black;
+      background-size: 100%;
+  }
+  .footer-ul{
+    display: flex;
+    gap:50px;
+    list-style: none;
+  margin-top: 100px;
+    justify-content: center;
+  }
 
 /* Responsive Design */
 @media (max-width: 768px) {

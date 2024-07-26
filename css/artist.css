@@ -64,13 +64,16 @@ body {
 
 
 .us-imgs{
-    width: 340px;
-    height: 200px;
+    width: 330px;
+    height: 210px;
     box-shadow: 0 10px 25px 0 rgba(95, 94, 94, 0.5);
     opacity: 1;
     visibility: visible;
     pointer-events: auto;
     cursor: pointer;
+    border: 5px solid #380bdc; /* 青色のボーダー */
+    border-radius: 10px; /* 角丸にする場合 */
+    
    
 }
 
@@ -152,6 +155,7 @@ body {
 .us-icon-img{
     width: 130px;
     height: 130px;
+    
 }
 
 .uk-icon-img{
@@ -177,4 +181,29 @@ body {
     list-style: none;
     height: 200px;
     background-size: 100%;
+  }
+
+
+.insta-img,.x-img,.line-img{
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+  }
+  
+  
+    /*footer*/
+  
+  .footer{
+    margin-top: 20%;
+    height: 400px;
+    /*  background-image: url(../image/image/wall2.jpeg);*/
+    background-color: black;
+      background-size: 100%;
+  }
+  .footer-ul{
+    display: flex;
+    gap:50px;
+    list-style: none;
+  margin-top: 100px;
+    justify-content: center;
   }

@@ -81,6 +81,8 @@ body {
     position: relative;
     cursor: pointer;
     transition: transform 0.3s, box-shadow 0.3s;
+    border: 5px solid #380bdc; /* 青色のボーダー */
+    border-radius: 10px; 
 }
 
 .card:hover {
@@ -95,6 +97,7 @@ body {
     border-radius: 12px 12px 0 0;
     filter: brightness(0.8) saturate(120%);
     transition: filter 0.3s;
+   
 }
 
 .card:hover img {

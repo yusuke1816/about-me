@@ -44,9 +44,15 @@ const swiper1 = new Swiper(".swiper1", {
 
 
 
-
-
 const swiper2 = new Swiper(".swiper2", {
+  effect: 'cube', // 例: 'cube', 'fade', 'flip', 'coverflow' など
+  grabCursor: true,
+  cubeEffect: {
+    shadow: true,
+    slideShadows: true,
+    shadowOffset: 20,
+    shadowScale: 0.94,
+  },
   pagination: {
       el: ".swiper2-pagination",
       clickable: true,
@@ -58,6 +64,10 @@ const swiper2 = new Swiper(".swiper2", {
   slidesPerView: 1,
   spaceBetween: 10,
   loop: false,
+  autoplay: {
+      delay: 3000,
+      disableOnInteraction: false,
+  },
 });
 
 
