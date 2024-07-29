@@ -16,13 +16,14 @@
   }
 
   .swiper2{
-    margin-top: 50px;
+    margin-top: 0px;
   }
 
 
   .swiper-slide img {
     border: 5px solid #380bdc; /* 青色のボーダー */
     border-radius: 10px; /* 角丸にする場合 */
+    margin-top: 2%;
   }
 
 

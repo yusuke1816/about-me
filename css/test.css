@@ -176,16 +176,14 @@ margin-top: 100px;
   margin-bottom: 0px;
 }
 .about-hood{
-  margin-top: 100px;
+ 
 }
 
 
 
 
 
-form{
-  padding-top: 150px;
-}
+
 
 
 
@@ -220,12 +218,21 @@ form{
   
 }
 
+.edg{
+  border: 5px solid #380bdc; /* 青色のボーダー */
+    border-radius: 10px; /* 角丸にする場合 */
+    max-width: 800px;
+    margin: 50px auto;
+}
+
 
 
 .index-sns-imgs{
   text-align: center;
-  margin-top: 150px;
+  margin-top: 15
+  0px;
 }
+
 
 
 .index-sns-img {
@@ -253,6 +260,8 @@ form{
   width: 250px;
   height: 200px;
 }
+
+
 
 
 
