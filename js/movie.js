@@ -1,17 +1,45 @@
 const swiper1 = new Swiper(".swiper1", {
     loop: true,
+    pagination: {
+        el: ".swiper1-pagination",
+        clickable: true,
+    },
     slidesPerView: 1,
-    spaceBetween: 20, // Default space between slides
-
+    navigation: {
+        nextEl: ".swiper1-button-next",
+        prevEl: ".swiper1-button-prev",
+    },
+    centeredSlides: true,
+    spaceBetween: 16,
     breakpoints: {
         320: {
-            spaceBetween: 10, // Adjusted space for smaller screens
+            slidesPerView: 1,
+            spaceBetween: 20,
+        },
+        375: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+        },
+        400: {
+          slidesPerView: 2,
+          spaceBetween: 30,
+      },
+        480: {
+            slidesPerView: 2,
+            spaceBetween: 30,
         },
         640: {
-            spaceBetween: 30, // Adjusted space for medium screens
+            slidesPerView: 3,
+            spaceBetween: 40,
         },
-        1280: {
-            spaceBetween: 40, // Adjusted space for larger screens
+        1280:{
+          slidesPerView: 4,
+        },
+        1480: {
+            slidesPerView: 5,
+            spaceBetween: 10,
         },
     },
-});
+  });
+  
+

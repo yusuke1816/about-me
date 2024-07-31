@@ -96,6 +96,16 @@ footer {
     padding: 20px 0;
 }
 
+.soccer-img{
+    width: 900px;
+    height: 500px;
+    margin-top: 1.5%;
+   
+}
+.imgs{
+    text-align: center;
+}
+
 /* Hero Section */
 #hero {
     background-image: url('images/hero.jpg');
@@ -140,22 +150,7 @@ footer {
 
 
   
-    /*footer*/
-  
-  .footer{
-    margin-top: 20%;
-    height: 400px;
-    /*  background-image: url(../image/image/wall2.jpeg);*/
-    background-color: black;
-      background-size: 100%;
-  }
-  .footer-ul{
-    display: flex;
-    gap:50px;
-    list-style: none;
-  margin-top: 100px;
-    justify-content: center;
-  }
+
 
 /* Responsive Design */
 @media (max-width: 768px) {

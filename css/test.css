@@ -68,23 +68,6 @@ top: 3px
 }
 
 
-  /*footer*/
-
-.footer{
-  margin-top: 20%;
-  height: 400px;
-  /*  background-image: url(../image/image/wall2.jpeg);*/
-  background-color: black;
-    background-size: 100%;
-}
-.footer-ul{
-  display: flex;
-  gap:50px;
-  list-style: none;
-margin-top: 100px;
-  justify-content: center;
-}
-
 
 
 
