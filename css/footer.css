@@ -14,6 +14,17 @@
     justify-content: center;
   }
 
-  p{
+ 
+
+  .footer-p {
+    font-size: 1.1em;
+    line-height: 1.6;
     color: #fff;
-  }
+}
+
+footer {
+  background-color: #034694;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
