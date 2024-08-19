@@ -175,4 +175,14 @@ li {
     .hero-content p {
         font-size: 1em;
     }
+
+    .soccer-img{
+        width: 500px;
+        height: 300px;
+        margin-top: 1.5%;
+       
+    }
+    .imgs{
+        text-align: center;
+    }
 }
