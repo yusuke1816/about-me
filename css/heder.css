@@ -1,0 +1,29 @@
+
+.head-main-nav{
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    list-style: none;
+    margin-left: 10px;
+  }
+  
+  .nav-li{
+    margin-bottom: 35px;
+    font-size: 25px;
+    margin-top: 1%;
+    list-style: none;
+    text-decoration: none;
+    color: #380bdc;;;
+  }
+  
+  .nav-h1{
+    margin-right: 50%;
+    
+  }
+  
+  .nav-img{
+    margin-top: 10px;
+    height: 60px;
+    width: 60px;
+  }
+  

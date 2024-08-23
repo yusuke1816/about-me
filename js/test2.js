@@ -42,11 +42,11 @@ const swiper1 = new Swiper(".swiper1", {
   },
 });
 
-
-
+// Initialize Swiper with custom class for slides
 const swiper2 = new Swiper(".swiper2", {
-  effect: 'cube', // 例: 'cube', 'fade', 'flip', 'coverflow' など
+  effect: 'cube', // e.g., 'cube', 'fade', 'flip', 'coverflow', etc.
   grabCursor: true,
+  slideClass:"swiper-slide2",
   cubeEffect: {
     shadow: true,
     slideShadows: true,
@@ -68,6 +68,11 @@ const swiper2 = new Swiper(".swiper2", {
       delay: 3000,
       disableOnInteraction: false,
   },
+});
+
+// Add custom logic to handle the custom class name
+document.querySelectorAll('.swiper-slide2').forEach(slide => {
+  slide.classList.add('swiper-slide'); // Add Swiper's standard class to make it work
 });
 
 

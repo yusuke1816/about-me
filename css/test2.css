@@ -24,7 +24,14 @@
     border: 5px solid #380bdc; /* 青色のボーダー */
     border-radius: 10px; /* 角丸にする場合 */
     margin-top: 2%;
+    max-width: 800px;
   }
 
 
+  .swiper-slide2 img {
+    border: 5px solid #380bdc; /* 青色のボーダー */
+    border-radius: 10px; /* 角丸にする場合 */
+    margin-top: 2%;
+    /* max-width: 400px; */
+  }
   

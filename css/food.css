@@ -112,6 +112,8 @@ body {
     color: #fff;
     font-size: 1.8rem;
     margin-bottom: 10px;
+    color: #000;
+    -webkit-text-stroke: 2.5px #380bdc;;
 }
 
 .card p {
@@ -208,6 +210,8 @@ body {
     color: #fff;
     font-size: 2rem;
     margin-bottom: 10px;
+    color: #000;
+    -webkit-text-stroke: 2px #380bdc;;
 }
 
 .food-details p {
