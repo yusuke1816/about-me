@@ -55,6 +55,8 @@ background-blend-mode:darken;
   margin-top: 10%;
   margin-bottom: 7%;
   font-size: 400%;
+  color: #000;
+    -webkit-text-stroke: 2px #380bdc;;
   
 }
 
@@ -71,6 +73,8 @@ background-blend-mode:darken;
   margin: 0 auto;
   margin-top: 100px;
   display: flex;
+  border: 5px solid #380bdc;
+  border-radius: 10px;
 }
 
 
