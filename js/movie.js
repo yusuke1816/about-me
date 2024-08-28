@@ -13,7 +13,7 @@ const swiper1 = new Swiper(".swiper1", {
     spaceBetween: 16,
     breakpoints: {
         320: {
-            slidesPerView: 1,
+            slidesPerView: 1.1,
             spaceBetween: 10,
         },
         375: {
@@ -28,19 +28,43 @@ const swiper1 = new Swiper(".swiper1", {
             slidesPerView: 1.9,
             spaceBetween: 10,
         },
+        740: {
+            slidesPerView: 2.1,
+            spaceBetween: 10,
+        },
         840: {
+            slidesPerView: 2.3,
+            spaceBetween: 10,
+        },
+
+        880: {
             slidesPerView: 2.5,
             spaceBetween: 10,
         },
-        1040: {
-            slidesPerView: 3.3,
+
+
+        940: {
+            slidesPerView: 2.6,
             spaceBetween: 10,
         },
 
+        
+        1040: {
+            slidesPerView: 3.5,
+            spaceBetween: 10,
+        },
+        1140: {
+            slidesPerView: 3.7,
+            spaceBetween: 10,
+        },
+        
+
 
         1280: {
-            slidesPerView: 3.7,
+            slidesPerView: 3.9,
         },
+
+        
         1480: {
             slidesPerView: 4.7,
             spaceBetween: 10,

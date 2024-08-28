@@ -75,6 +75,7 @@ background-blend-mode:darken;
   display: flex;
   border: 5px solid #380bdc;
   border-radius: 10px;
+  padding: 100px;
 }
 
 
