@@ -75,13 +75,12 @@ background-blend-mode:darken;
   display: flex;
   border: 5px solid #380bdc;
   border-radius: 10px;
-  padding: 100px;
+  padding: 80px;
 }
 
 
 
 .sketer-1{
-  text-align: right;
   margin-right: 2%;
 }
 

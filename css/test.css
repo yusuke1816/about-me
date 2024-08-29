@@ -222,8 +222,14 @@ top: 3px
   -webkit-text-stroke: 2px #380bdc;;
 }
 
+.sns-img{
+  border: 5px solid #380bdc; /* 青色のボーダー */
+  border-radius: 40px; /* 角丸にする場合 */
+}
 
-
+.index-sns-imgs-row{
+  gap: 20px;
+}
 
 
 
