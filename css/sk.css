@@ -61,6 +61,8 @@ background-blend-mode:darken;
 }
 
 
+
+
 .sk-div {
 
   width: 80%;
@@ -78,41 +80,24 @@ background-blend-mode:darken;
   padding: 80px;
 }
 
-
-
-.sketer-1{
-  margin-right: 2%;
+.name{
+  font-size: 60px;
 }
 
-.sketer-2{
-  text-align: left;
-  margin-left: 2%;
-}
+
+
 
 .sk-text1{
   text-align: left;
-  font-size: 90%;
+  font-size: 160%;
 }
-.sk-text2{
-  text-align: right;
-  font-size: 90%;
-}
+
 .sk-img-1{
   width: 80%;
 }
 
 
 
-
-.sns-imgs{
-  justify-content: center;
-  display: flex;
-  /*flex-direction: row;*/
-  text-align: center;
-  gap:5px;
-  list-style: none;
-  margin-bottom: 50px;
-}
 
 
 .footer{
