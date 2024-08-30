@@ -187,9 +187,10 @@ top: 3px
 
 
 .sns-img{
-  width: 18%;
-  height: 18%;
+  width: 130px;
+  height: 130px;
   border-radius: 20px;
+  margin: 0 30px;
 }
 
 .index-sns-imgs{
@@ -200,11 +201,6 @@ top: 3px
 
 
 
-.snsimg {
-  width: 20px;
-  height: 20px;
-  margin: 0 30px; /* Add margin to create space between images */
-}
 
 .index-sns-imgs-row {
   margin-top: 70px; /* Adjust as needed for spacing between rows */
@@ -227,9 +223,6 @@ top: 3px
   border-radius: 40px; /* 角丸にする場合 */
 }
 
-.index-sns-imgs-row{
-  gap: 20px;
-}
 
 
 

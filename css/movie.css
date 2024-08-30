@@ -5,7 +5,7 @@
 p{
   text-align: center;
   margin: 20px 0;
-  font-size:3rem;
+  font-size:200%;
   color: aliceblue;
 }
 
@@ -151,7 +151,9 @@ html{
     width: 60px;
   }
   
-  
+  .movie-h2{
+    margin-left: 0.5%;
+  }
   
   
   /* .imgone{
@@ -465,9 +467,7 @@ html{
 
   
   
-  
-  
-  
+
   
   
   

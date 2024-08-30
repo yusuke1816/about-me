@@ -88,7 +88,6 @@
                     <div class="swiper-slide2"><img src="image/hood/la.jpg" alt="地元の湖の画像"></div>
                     <div class="swiper-slide2"><img src="image/hood/sun.jpg" alt="地元の夕焼けの画像"></div>
                 </div>
-                <div class="swiper-pagination swiper2-pagination"></div>
                 <div class="swiper-button-next swiper2-button-next"></div>
                 <div class="swiper-button-prev swiper2-button-prev"></div>
             </div>
@@ -113,14 +112,15 @@
         <div class="index-sns-imgs ">  
             <div class="edg">
                 <div class="index-sns-imgs-row">
-                    <img class="sns-img" src="image/sns/in.jpg" alt="私のインスタアカウント">
-                    <img class="sns-img" src="image/sns/x.jpg" alt="私のXアカウント">
-                    <img class="sns-img" src="image/sns/be.jpg" alt="私のビーリアルアカウント">
+                    <a href="https://www.instagram.com/__uk__y_?igsh=OHdsbWwzdXE2bHRt&utm_source=qr"><img class="sns-img" src="image/sns/in.jpg" alt="私のインスタアカウント"></a>
+                    <a href=""><img class="sns-img" src="image/sns/x.jpg" alt="私のXアカウント"></a>
+                    <a href="https://bere.al/zuck.m"><img class="sns-img" src="image/sns/be.jpg" alt="私のビーリアルアカウント"></a>
                 </div>
                 <div class="index-sns-imgs-row">
-                    <img class="sns-img" src="image/sns/mu.jpg" alt="私のアップルミュージックアカウント">
-                    <img class="sns-img" src="image/sns/so.jpg" alt="私のサウンドクラウドの画像">
-                    <img class="sns-img" src="image/sns/m.jpg" alt="私のメルカリのアカウント">
+                    <a href="https://music.apple.com/profile/tohjitamura"> <img class="sns-img" src="image/sns/mu.jpg" alt="私のアップルミュージックアカウント"></a>
+                    <a href="https://on.soundcloud.com/Th5fUXmxWqsomgnW6"><img class="sns-img" src="image/sns/so.jpg" alt="私のサウンドクラウドの画像"></a>
+                    <a href="https://jp.mercari.com/user/profile/166393287?utm_source=ios&utm_medium=share"> <img class="sns-img" src="image/sns/m.jpg" alt="私のメルカリのアカウント"></a>
+                   
                 </div>
             </div>
             
@@ -132,16 +132,16 @@
         <h2 class="qa-h2">< Q&A ></h2>
         <div class="edg">
             <div class="about-div">
-                <form class="qa-form">      
-                    <input name="name" type="text" class="feedback-input" placeholder="Name" />   
-                    <input name="email" type="text" class="feedback-input" placeholder="Email" />
-                    <textarea name="text" class="feedback-input" placeholder="Comment"></textarea>
+                <form id="qa-form" class="qa-form" action="/submit" method="POST">      
+                    <input name="name" type="text" class="feedback-input" placeholder="Name" required />   
+                    <input name="email" type="email" class="feedback-input" placeholder="Email" required />
+                    <textarea name="text" class="feedback-input" placeholder="Comment" required></textarea>
                     <input type="submit" value="SUBMIT"/>
                 </form>
             </div>
         </div>
-        
     </div>
+    
     
 
 
